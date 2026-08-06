@@ -1,0 +1,9 @@
+# Core application dependencies
+# Pinned with >= so pip can pick a version compatible with Python 3.9.
+
+streamlit>=1.49          # Web UI framework (1.49+ for the `width` layout API)
+pandas>=2.0              # Tabular data handling (DataFrames)
+openpyxl>=3.1            # Engine pandas uses to read .xlsx files
+plotly>=5.20             # Interactive charts (used from Milestone 3 onward)
+anthropic>=0.34          # Claude API client (used from Milestone 5 onward)
+python-dotenv>=1.0       # Loads the API key from a .env file (Milestone 5)
